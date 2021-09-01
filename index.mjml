@@ -15,11 +15,31 @@
     font-family:helvetica;
     padding:0;
   }
+   .sign-button {
+     background-color: #74a15f;
+     color: white;
+     width: 150px;
+     border-radius: 4px;
+     padding: 10px 20px;
+    font-size:16px;
+    font-family:helvetica;
+    cursor: pointer;
+    text-align: center;
+   }
+   .web-forum-img {
+
+     padding: 10px 0px 0 40px;
+ 
+    cursor: pointer;
+   
+   }
+
+   }
   </mj-style>
  
 </mj-head>
 
-  <mj-body  width="700px">
+  <mj-body  width="700px" background-color="white" >
 
     <mj-section background-color="white" padding="15px">
       <mj-column>
@@ -126,6 +146,24 @@
              </tr>
         </mj-table>
       </mj-column>
+    </mj-section>
+
+    <mj-section  padding="20px" > 
+    <mj-column   >
+    <mj-text >
+    <div class="sign-button">
+    Sign in
+    </div>
+    </mj-text>
+    </mj-column>
+    <mj-column>
+     <mj-text >
+     <div class="web-forum-img">
+    <img src="./web-forum.JPG">
+    </div>
+    </mj-text>
+    </mj-column>
+
     </mj-section>
 
 
