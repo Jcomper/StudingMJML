@@ -1,3 +1,134 @@
 <mjml>
+<mj-head> 
+  <mj-title>First task</mj-title>
+  <mj-preview>First task</mj-preview>
+  <mj-style>
+  .due-date {
+    color: grey;
+    font-size: 16px;
+    font-family:helvetica;
+    padding:0;
+  }
+  .text {
+    font-size:16px;
+    color:black;
+    font-family:helvetica;
+    padding:0;
+  }
+  </mj-style>
+ 
+</mj-head>
+
+  <mj-body  width="700px">
+
+    <mj-section background-color="white" padding="15px">
+      <mj-column>
+        <mj-text font-size="16px" color="black" font-family="helvetica" 
+        padding-left="0px" padding-bottom="0px" padding-top="0px">
+        Hi Isak,
+</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+     <mj-section background-color="white" padding="15px" >
+      <mj-column>
+        <mj-text font-size="16px" color="black" font-family="helvetica" 
+         padding-left="0px" padding-bottom="0px" padding-top="0px">
+    Thanks for all the great contributions from you and your colleagues last week! Here’s a reminder your
+    upcoming deadlines.</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+     <mj-section background-color="white" padding="15px" padding-left="0px" >
+           <mj-column  width="60px" padding="0"  background-color="white" >
+            <mj-image  padding="0" border-radius="50%" width="100px" src="./face.JPG"> </mj-image>
+      </mj-column>
+      <mj-column width="300px" >
+        <mj-text font-size="16px" color="black" font-family="helvetica" 
+         padding-left="15px" padding-bottom="0px" padding-top="5px">
+    Project: Hanssons resident <br>
+    Status:  Ongoing <br>
+    Projektledare: Leonid Vörthed
+ </mj-text>
+      </mj-column>
+    </mj-section>
+
+
     
+
+    <mj-section background-color="white" padding="15px" >
+          
+      
+      <mj-column width="200px">
+        <mj-text font-size="16px" color="grey" font-family="helvetica" 
+         padding-left="15px" padding-bottom="0px" padding-top="5px">
+
+ </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+       <mj-section background-color="white">
+      <mj-column background-color="#f0f0f0">
+        <mj-table >
+          <tr style="text-align:left;padding:15px 0; ">
+            <th style="width:300px; padding: 0 15px 30px 0; border-right:1px solid black;font-size:16px;
+             font-family:helvetica; font-weight:normal">
+             Your assignments with due date this week</th>
+
+              <th style="padding: 0 15px 30px 15px; font-size:16px;
+             font-family:helvetica; font-weight:normal">
+             Your delayed assignments week</th>
+           
+          
+          </tr>
+          <tr>
+            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
+            <div class="text">Look over the different VVS options</div>
+            <div class="due-date">Due date: 09/12/2021</div> <br>
+            </td>
+            <td style="padding: 0 15px 0 15px;">
+            <div class="due-date">
+            Everything seems to be on track! Keep up the good work 😊 </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
+            <div class="text">Make templates for budgets</div>
+            <div class="due-date">Due date: 09/12/2021</div> <br>
+            </td>
+             </tr>
+                       <tr>
+            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
+            <div class="text">Examine sketches for the new built for...</div>
+            <div class="due-date">Due date: 10/12/2021</div> <br>
+            </td>
+             </tr>
+                       <tr>
+            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
+            <div class="text">Take a decision on the material of...</div>
+            <div class="due-date">Due date: 10/12/2021</div> <br>
+            </td>
+             </tr>
+                       <tr>
+            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
+            <div class="text">Decisions for color on the facade of...</div>
+            <div class="due-date">Due date: 10/12/2021</div> <br>
+            </td>
+             </tr>
+                       <tr>
+            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
+            <div class="text">Chose between template suggestions...</div>
+            <div class="due-date">Due date: 09/12/2021</div> <br>
+            </td>
+             </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+
+
+  </mj-body>
 </mjml>
