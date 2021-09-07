@@ -1,13 +1,72 @@
 <mjml>
-  <mj-body>
-    <mj-section>
-      <mj-column>
-        <mj-carousel>
-          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/11/ecommerce-guide.jpg" />
-          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/3@1x.png" />
-          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/1@1x.png" />
-        </mj-carousel>
+  <mj-head>
+  <mj-attributes>
+      <mj-accordion border="none" padding="1px" />
+      <mj-accordion-element icon-wrapped-url="https://image.flaticon.com/icons/png/512/616/616412.png" icon-unwrapped-url="https://image.flaticon.com/icons/png/512/616/616457.png" icon-height="20px" icon-width="20px" />
+      <mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff" color="#031017" padding="15px" font-size="18px" />
+      <mj-accordion-text font-family="Open Sans, Helvetica, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="14px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="white">
+       <mj-section padding-bottom="0" padding-left="25px">
+      <mj-column  width="40px"  padding="0">
+        <mj-image padding="0" width="40px" src="https://image.flaticon.com/icons/png/512/149/149200.png"/>
+      </mj-column>
+            <mj-column width="500px" padding="0">
+        <mj-text font-size="30px" padding-left="10px">
+        Hello!
+        </mj-text>    
       </mj-column>
     </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image src="https://10wallpaper.com/wallpaper/1680x1050/1107/Curious_little_cat_wallpaper_1680x1050.jpg"/>
+      </mj-column>
+    </mj-section>
+
+     <mj-hero mode="fixed-height"  background-width="600px" 
+     background-height="469px" 
+     background-url="https://10wallpaper.com/wallpaper/1680x1050/1107/Curious_little_cat_wallpaper_1680x1050.jpg" background-color="#2a3448" padding="100px 0px">
+      <mj-text padding="20px" color="#ffffff" font-family="Helvetica" align="center" font-size="45px" line-height="45px" font-weight="900">
+        Hello!
+      </mj-text>
+      <mj-button href="https://mjml.io/" align="center" background-color="green">
+        FIND YOUR PET
+      </mj-button>
+    </mj-hero>
+
+    
+    <mj-section padding="20px" background-color="#ffffff">
+      <mj-column background-color="#dededd">
+        <mj-accordion>
+          <mj-accordion-element>
+            <mj-accordion-title>Why cat?</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Clinical studies have found that the life expectancy of those who live "side by side" with cats for a long time is ten years longer than those who saw cats only in pictures on the Internet. A cat is an excellent remedy for insomnia. A question for our beloved "cat-lovers". Have you ever noticed that if your tailed pet likes to sleep next to you, you fall asleep faster and sleep more peacefully?
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>Dog is your best friend</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Mood Improvers No matter how gloomy your mood is, it will sharply increase when playing with your beloved dog
+Masters of the heart For all people who have problems with blood pressure, communication with dogs is essential
+Sports stimulants People with dogs are healthier than people without dogs - because they move!
+Exceptional healers People who have a dog recover faster from various diseases.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+        </mj-accordion>
+      </mj-column>
+    </mj-section>
+    
+
+
+
+
+
   </mj-body>
 </mjml>
