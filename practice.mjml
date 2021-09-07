@@ -31,7 +31,7 @@
       <mj-text padding="20px" color="#ffffff" font-family="Helvetica" align="center" font-size="45px" line-height="45px" font-weight="900">
         Hello!
       </mj-text>
-      <mj-button href="https://mjml.io/" align="center" background-color="green">
+      <mj-button href="https://www.google.ru/search?q=cat&newwindow=1&source=hp&ei=idM3YeLjMKGFxc8Pl7GRwAE&iflsig=ALs-wAMAAAAAYTfhmdWaYQIdLcXYvOqyTrerJmaW_coF&oq=cat&gs_lcp=Cgdnd3Mtd2l6EAMyCAguEIAEEJMCMgsILhCABBDHARCjAjIFCC4QgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUILhCABDIFCC4QgAQyCwguEIAEEMcBENEDOgsILhCABBDHARCvAVDJCljAEWClFGgBcAB4AIABSIgBvgGSAQEzmAEAoAEBsAEA&sclient=gws-wiz&ved=0ahUKEwiizMW84e3yAhWhQvEDHZdYBBgQ4dUDCAc&uact=5" align="center" background-color="green">
         FIND YOUR PET
       </mj-button>
     </mj-hero>
