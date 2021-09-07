@@ -2,46 +2,10 @@
 <mj-head> 
   <mj-title>First task</mj-title>
   <mj-preview>First task</mj-preview>
-  <mj-style>
-  .due-date {
-    color: grey;
-    font-size: 16px;
-    font-family:helvetica;
-    padding:0;
-  }
-  .text {
-    font-size:16px;
-    color:black;
-    font-family:helvetica;
-    padding:0;
-  }
-   .sign-button {
-     background-color: #74a15f;
-     color: white;
-     width: 150px;
-     border-radius: 4px;
-     padding: 10px 20px;
-    font-size:16px;
-    font-family:helvetica;
-    cursor: pointer;
-    text-align: center;
-   }
-   .web-forum-img {
-
-     padding: 10px 0px 0 40px;
- 
-    cursor: pointer;
-   
-   }
-
-   }
-  </mj-style>
- 
 </mj-head>
 
   <mj-body  width="700px" background-color="white" >
-
-    <mj-section background-color="white" padding="15px">
+    <mj-section background-color="white" padding="20px">
       <mj-column>
         <mj-text font-size="16px" color="black" font-family="helvetica" 
         padding-left="0px" padding-bottom="0px" padding-top="0px">
@@ -51,7 +15,7 @@
     </mj-section>
 
 
-     <mj-section background-color="white" padding="15px" >
+     <mj-section background-color="white" padding="20px" >
       <mj-column>
         <mj-text font-size="16px" color="black" font-family="helvetica" 
          padding-left="0px" padding-bottom="0px" padding-top="0px">
@@ -61,11 +25,11 @@
     </mj-section>
 
 
-     <mj-section background-color="white" padding="15px" padding-left="0px" >
-           <mj-column  width="60px" padding="0"  background-color="white" >
+     <mj-section   background-color="white" padding="15px" padding-left="0px" >
+           <mj-column width="60px" padding="0" >
             <mj-image  padding="0" border-radius="50%" width="100px" src="./face.JPG"> </mj-image>
       </mj-column>
-      <mj-column width="300px" >
+      <mj-column width="300px"  >
         <mj-text font-size="16px" color="black" font-family="helvetica" 
          padding-left="15px" padding-bottom="0px" padding-top="5px">
     Project: Hanssons resident <br>
@@ -73,6 +37,8 @@
     Projektledare: Leonid Vörthed
  </mj-text>
       </mj-column>
+       <mj-column width="260px"  >
+       </mj-column>
     </mj-section>
 
 
@@ -89,8 +55,7 @@
       </mj-column>
     </mj-section>
 
-
-       <mj-section background-color="white">
+ <mj-section background-color="white">
       <mj-column background-color="#f0f0f0">
         <mj-table >
           <tr style="text-align:left;padding:15px 0; ">
@@ -101,67 +66,70 @@
               <th style="padding: 0 15px 30px 15px; font-size:16px;
              font-family:helvetica; font-weight:normal">
              Your delayed assignments week</th>
-           
+          </tr>
+          <tr>
+          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
+             font-family:helvetica; font-weight:normal"> 
+          <mj-text>Look over the different VVS options</mj-text> <br>
+          <mj-text style="color: grey">Due date: 09/12/2021</mj-text>
+          </td>
+          <td style=" padding-left:15px; font-size:16px;
+             font-family:helvetica; font-weight:normal; color:grey">
+          <mj-text >
+          Everything seems to be on track! Keep up the good work 😊
+          </mj-text>
+          </td>
+          </tr>
+          <tr>
+          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
+             font-family:helvetica; font-weight:normal"> 
+          <mj-text>Make templates for budgets</mj-text> <br>
+          <mj-text style="color: grey">Due date: 09/12/2021</mj-text>
+          </td>
+          </tr>
+          <tr>
+          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
+             font-family:helvetica; font-weight:normal"> 
+          <mj-text>Examine sketches for the new built for...</mj-text> <br>
+          <mj-text style="color: grey">Due date: 10/12/2021</mj-text>
+          </td>
+          </tr>
+                    <tr>
+          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
+             font-family:helvetica; font-weight:normal"> 
+          <mj-text>Take a decision on the material of...</mj-text> <br>
+          <mj-text style="color: grey">Due date: 10/12/2021</mj-text>
+          </td>
+          </tr>
+           <tr>
+          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
+             font-family:helvetica; font-weight:normal"> 
+          <mj-text>Decisions for color on the facade of...</mj-text> <br>
+          <mj-text style="color: grey">Due date: 10/12/2021</mj-text>
+          </td>
+          </tr>
+                     <tr>
+          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
+             font-family:helvetica; font-weight:normal"> 
+          <mj-text>Chose between template suggestions...</mj-text> <br>
+          <mj-text style="color: grey">Due date: 09/12/2021</mj-text>
+          </td>
+          </tr>
+
+
           
-          </tr>
-          <tr>
-            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
-            <div class="text">Look over the different VVS options</div>
-            <div class="due-date">Due date: 09/12/2021</div> <br>
-            </td>
-            <td style="padding: 0 15px 0 15px;">
-            <div class="due-date">
-            Everything seems to be on track! Keep up the good work 😊 </div>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
-            <div class="text">Make templates for budgets</div>
-            <div class="due-date">Due date: 09/12/2021</div> <br>
-            </td>
-             </tr>
-                       <tr>
-            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
-            <div class="text">Examine sketches for the new built for...</div>
-            <div class="due-date">Due date: 10/12/2021</div> <br>
-            </td>
-             </tr>
-                       <tr>
-            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
-            <div class="text">Take a decision on the material of...</div>
-            <div class="due-date">Due date: 10/12/2021</div> <br>
-            </td>
-             </tr>
-                       <tr>
-            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
-            <div class="text">Decisions for color on the facade of...</div>
-            <div class="due-date">Due date: 10/12/2021</div> <br>
-            </td>
-             </tr>
-                       <tr>
-            <td style="padding: 0 15px 0 0;border-right:1px solid black;">
-            <div class="text">Chose between template suggestions...</div>
-            <div class="due-date">Due date: 09/12/2021</div> <br>
-            </td>
-             </tr>
         </mj-table>
       </mj-column>
-    </mj-section>
+  </mj-section>
+
 
     <mj-section  padding="20px" > 
-    <mj-column   >
-    <mj-text >
-    <div class="sign-button">
-    Sign in
-    </div>
-    </mj-text>
+    <mj-column padding="0 150px 0 0">
+    <mj-button font-size="16px" color="white" background-color="#74a15f" font-family="helvetica" width="150px" > 
+    Sign in  </mj-button>
     </mj-column>
-    <mj-column>
-     <mj-text >
-     <div class="web-forum-img">
-    <img src="./web-forum.JPG">
-    </div>
-    </mj-text>
+    <mj-column>    
+    <mj-image width="200px" padding="0 0 0 140px" src="./web-forum.JPG"/>
     </mj-column>
 
     </mj-section>
