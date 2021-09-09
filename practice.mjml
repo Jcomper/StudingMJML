@@ -62,6 +62,38 @@ Exceptional healers People who have a dog recover faster from various diseases.
         </mj-accordion>
       </mj-column>
     </mj-section>
+
+    <mj-section>
+     <mj-column>
+        <mj-text font-size="20px" >
+        A cat meeting you at home and purring in your lap in the evening is a great way to reduce your daily stress levels. And where there is less stress, there is less stress on the heart and blood vessels.
+        </mj-text>
+      </mj-column> 
+    </mj-section>
+
+    <mj-section>
+     <mj-column>
+        <mj-text font-size="20px">
+       Fact: Women are attracted to It's Official! Purring Puss Cats Enhance Men’s Pulling Power, and Bring out Their Caring Fe-line Side! men with pets. More than 90% of single young ladies sincerely believe that such gentlemen are more caring and more interesting, and therefore more willingly agree to dates.
+        </mj-text>
+      </mj-column> 
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-button font-size="15px" font-family="Helvetica" background-color="#f45e43" color="white">
+          Find pet now!
+         </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+        <mj-section>
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+    
     
 
 

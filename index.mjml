@@ -2,9 +2,11 @@
 <mj-head> 
   <mj-title>First task</mj-title>
   <mj-preview>First task</mj-preview>
+    
 </mj-head>
 
   <mj-body  width="700px" background-color="white" >
+
     <mj-section background-color="white" padding="20px">
       <mj-column>
         <mj-text font-size="16px" color="black" font-family="helvetica" 
@@ -27,7 +29,7 @@
 
      <mj-section   background-color="white" padding="15px" padding-left="0px" >
            <mj-column width="60px" padding="0" >
-            <mj-image  padding="0" border-radius="50%" width="100px" src="./face.JPG"> </mj-image>
+            <mj-image  padding="0" border-radius="50%" width="100px" src="https://raw.githubusercontent.com/Mashidzasupergirl/StudingMJML/main/face.JPG"> </mj-image>
       </mj-column>
       <mj-column width="300px"  >
         <mj-text font-size="16px" color="black" font-family="helvetica" 
@@ -69,9 +71,9 @@
           </tr>
           <tr>
           <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
-             font-family:helvetica; font-weight:normal"> 
-          <mj-text>Look over the different VVS options</mj-text> <br>
-          <mj-text style="color: grey">Due date: 09/12/2021</mj-text>
+             font-family:helvetica; font-weight:normal" > 
+          <mj-text>Look over the different VVS options <br>
+          <span style="color:grey">Due date: 09/12/2021</span></mj-text>
           </td>
           <td style=" padding-left:15px; font-size:16px;
              font-family:helvetica; font-weight:normal; color:grey">
@@ -83,41 +85,38 @@
           <tr>
           <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
              font-family:helvetica; font-weight:normal"> 
-          <mj-text>Make templates for budgets</mj-text> <br>
-          <mj-text style="color: grey">Due date: 09/12/2021</mj-text>
+          <mj-text>Make templates for budgets <br>
+          <span style="color:grey">Due date: 09/12/2021 </span></mj-text>
           </td>
           </tr>
           <tr>
           <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
              font-family:helvetica; font-weight:normal"> 
-          <mj-text>Examine sketches for the new built for...</mj-text> <br>
-          <mj-text style="color: grey">Due date: 10/12/2021</mj-text>
+          <mj-text>Examine sketches for the new built for... <br>
+          <span style="color:grey">Due date: 10/12/2021 </span></mj-text>
           </td>
           </tr>
                     <tr>
           <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
              font-family:helvetica; font-weight:normal"> 
-          <mj-text>Take a decision on the material of...</mj-text> <br>
-          <mj-text style="color: grey">Due date: 10/12/2021</mj-text>
+          <mj-text>Take a decision on the material of... <br>
+          <span style="color:grey">Due date: 10/12/2021 </span></mj-text>
           </td>
           </tr>
            <tr>
           <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
              font-family:helvetica; font-weight:normal"> 
-          <mj-text>Decisions for color on the facade of...</mj-text> <br>
-          <mj-text style="color: grey">Due date: 10/12/2021</mj-text>
+          <mj-text>Decisions for color on the facade of... <br>
+          <span style="color:grey">Due date: 10/12/2021 </span></mj-text>
           </td>
           </tr>
                      <tr>
           <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
              font-family:helvetica; font-weight:normal"> 
-          <mj-text>Chose between template suggestions...</mj-text> <br>
-          <mj-text style="color: grey">Due date: 09/12/2021</mj-text>
+          <mj-text>Chose between template suggestions... <br>
+          <span style="color:grey">Due date: 09/12/2021 </span></mj-text>
           </td>
           </tr>
-
-
-          
         </mj-table>
       </mj-column>
   </mj-section>
@@ -129,7 +128,7 @@
     Sign in  </mj-button>
     </mj-column>
     <mj-column>    
-    <mj-image width="200px" padding="0 0 0 140px" src="./web-forum.JPG"/>
+    <mj-image width="200px" padding="0 0 0 140px" src="https://raw.githubusercontent.com/Mashidzasupergirl/StudingMJML/main/web-forum.JPG"/>
     </mj-column>
 
     </mj-section>
