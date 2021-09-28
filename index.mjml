@@ -1,139 +1,171 @@
 <mjml>
-<mj-head> 
-  <mj-title>First task</mj-title>
-  <mj-preview>First task</mj-preview>
-    
-</mj-head>
+  <mj-head>
+    <mj-title>First task</mj-title>
+    <mj-preview>First task</mj-preview>
 
-  <mj-body  width="700px" background-color="white" >
+  </mj-head>
+
+  <mj-body width="700px" background-color="white">
 
     <mj-section background-color="white" padding="20px">
       <mj-column>
-        <mj-text font-size="16px" color="black" font-family="helvetica" 
-        padding-left="0px" padding-bottom="0px" padding-top="0px">
-        Hi Isak,
-</mj-text>
+        <mj-text font-size="16px" color="black" font-family="helvetica" padding-left="0px" padding-bottom="0px" padding-top="0px">
+          Hi Isak,
+        </mj-text>
       </mj-column>
     </mj-section>
 
 
-     <mj-section background-color="white" padding="20px" >
+    <mj-section background-color="white" padding="20px">
       <mj-column>
-        <mj-text font-size="16px" color="black" font-family="helvetica" 
-         padding-left="0px" padding-bottom="0px" padding-top="0px">
-    Thanks for all the great contributions from you and your colleagues last week! Here’s a reminder your
-    upcoming deadlines.</mj-text>
+        <mj-text font-size="16px" color="black" font-family="helvetica" padding-left="0px" padding-bottom="0px" padding-top="0px">
+          Thanks for all the great contributions from you and your colleagues last week! Here’s a reminder your
+          upcoming deadlines.</mj-text>
       </mj-column>
     </mj-section>
 
 
-     <mj-section   background-color="white" padding="15px" padding-left="0px" >
-           <mj-column width="60px" padding="0" >
-            <mj-image  padding="0" border-radius="50%" width="100px" src="https://raw.githubusercontent.com/Mashidzasupergirl/StudingMJML/main/face.JPG"> </mj-image>
+    <mj-section background-color="white" padding="15px" padding-left="0px">
+      <mj-column width="60px" padding="0">
+        <mj-image padding="0" border-radius="50%" width="100px" src="https://raw.githubusercontent.com/Jcomper/StudingMJML/main/avatar.JPG"> </mj-image>
       </mj-column>
-      <mj-column width="300px"  >
-        <mj-text font-size="16px" color="black" font-family="helvetica" 
-         padding-left="15px" padding-bottom="0px" padding-top="5px">
-    Project: Hanssons resident <br>
-    Status:  Ongoing <br>
-    Projektledare: Leonid Vörthed
- </mj-text>
+      <mj-column width="300px">
+        <mj-text font-size="16px" color="black" font-family="helvetica" padding-left="15px" padding-bottom="0px" padding-top="5px">
+          Project: Hanssons resident <br>
+          Status: Ongoing <br>
+          Projektledare: Leonid Vörthed
+        </mj-text>
       </mj-column>
-       <mj-column width="260px"  >
-       </mj-column>
+      <mj-column width="260px">
+      </mj-column>
     </mj-section>
 
 
-    
+    <mj-section background-color="white" padding="15px">
 
-    <mj-section background-color="white" padding="15px" >
-          
-      
+
       <mj-column width="200px">
-        <mj-text font-size="16px" color="grey" font-family="helvetica" 
-         padding-left="15px" padding-bottom="0px" padding-top="5px">
+        <mj-text font-size="16px" color="grey" font-family="helvetica" padding-left="15px" padding-bottom="0px" padding-top="5px">
 
- </mj-text>
+        </mj-text>
       </mj-column>
     </mj-section>
 
- <mj-section background-color="white">
+    <mj-section background-color="white">
       <mj-column background-color="#f0f0f0">
-        <mj-table >
+        <mj-table>
           <tr style="text-align:left;padding:15px 0; ">
             <th style="width:300px; padding: 0 15px 30px 0; border-right:1px solid black;font-size:16px;
-             font-family:helvetica; font-weight:normal">
-             Your assignments with due date this week</th>
+                   font-family:helvetica; font-weight:normal">
+              Your assignments with due date this week</th>
 
-              <th style="padding: 0 15px 30px 15px; font-size:16px;
+            <th style="padding: 0 15px 30px 15px; font-size:16px;
+                   font-family:helvetica; font-weight:normal">
+              Your delayed assignments week</th>
+          </tr>
+          <tr>
+            <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
+             font-family:helvetica; font-weight:normal; vertical-align: top;">
+              <!-- Inner table due date tasks -->
+              <table>
+
+                <!-- Repeatable element -->
+                <tr>
+                  <td style="padding: 0 15px 20px 0;font-size:16px;
              font-family:helvetica; font-weight:normal">
-             Your delayed assignments week</th>
-          </tr>
-          <tr>
-          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
-             font-family:helvetica; font-weight:normal" > 
-          <mj-text>Look over the different VVS options <br>
-          <span style="color:grey">Due date: 09/12/2021</span></mj-text>
-          </td>
-          <td style=" padding-left:15px; font-size:16px;
-             font-family:helvetica; font-weight:normal; color:grey">
-          <mj-text >
-          Everything seems to be on track! Keep up the good work 😊
-          </mj-text>
-          </td>
-          </tr>
-          <tr>
-          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
-             font-family:helvetica; font-weight:normal"> 
-          <mj-text>Make templates for budgets <br>
-          <span style="color:grey">Due date: 09/12/2021 </span></mj-text>
-          </td>
-          </tr>
-          <tr>
-          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
-             font-family:helvetica; font-weight:normal"> 
-          <mj-text>Examine sketches for the new built for... <br>
-          <span style="color:grey">Due date: 10/12/2021 </span></mj-text>
-          </td>
-          </tr>
-                    <tr>
-          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
-             font-family:helvetica; font-weight:normal"> 
-          <mj-text>Take a decision on the material of... <br>
-          <span style="color:grey">Due date: 10/12/2021 </span></mj-text>
-          </td>
-          </tr>
-           <tr>
-          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
-             font-family:helvetica; font-weight:normal"> 
-          <mj-text>Decisions for color on the facade of... <br>
-          <span style="color:grey">Due date: 10/12/2021 </span></mj-text>
-          </td>
-          </tr>
-                     <tr>
-          <td style="padding: 0 15px 20px 0; border-right:1px solid black;font-size:16px;
-             font-family:helvetica; font-weight:normal"> 
-          <mj-text>Chose between template suggestions... <br>
-          <span style="color:grey">Due date: 09/12/2021 </span></mj-text>
-          </td>
+                    <table padding="0">
+                      <tr>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><img width="20px" height="20px" vertical-align="top" src="https://raw.githubusercontent.com/Jcomper/StudingMJML/main/taskIcon.png" /></td>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><span style="color:#000000; padding-left: 5px;">Look over the different VVS options</span></td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"></td>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><span style="color:#808080;padding-left: 5px;">Due date: 09/12/2021</span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- /Repeatable element -->
+
+                <!-- Repeatable element -->
+                <tr>
+                  <td style="padding: 0 15px 20px 0;font-size:16px;
+             font-family:helvetica; font-weight:normal">
+                    <table padding="0">
+                      <tr>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><img width="20px" height="20px" vertical-align="top" src="https://raw.githubusercontent.com/Jcomper/StudingMJML/main/questionIcon.png" /></td>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><span style="color:#000000; padding-left: 5px;">Look over the different VVS options</span></td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"></td>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><span style="color:#808080;padding-left: 5px;">Due date: 09/12/2021</span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- /Repeatable element -->
+
+              </table>
+              <!-- /Inner table due date tasks -->
+            </td>
+            <td style="padding: 0 15px 20px 0;font-size:16px;
+             font-family:helvetica; font-weight:normal; vertical-align:top;">
+              <!-- Inner table assignments -->
+              <table>
+
+                <!-- Repeatable element -->
+                <tr>
+                  <td style="padding: 0 15px 20px 0;font-size:16px;
+             font-family:helvetica; font-weight:normal">
+                    <table padding="0">
+                      <tr>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><img width="20px" height="20px" vertical-align="top" src="https://raw.githubusercontent.com/Jcomper/StudingMJML/main/questionIcon.png" /></td>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><span style="color:#000000; padding-left: 5px;">Look over the different VVS options</span></td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"></td>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><span style="color:#808080;padding-left: 5px;">Due date: 09/12/2021</span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- /Repeatable element -->
+
+                <!-- Repeatable element -->
+                <tr>
+                  <td style="padding: 0 15px 20px 0;font-size:16px;
+             font-family:helvetica; font-weight:normal">
+                    <table padding="0">
+                      <tr>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><img width="20px" height="20px" vertical-align="top" src="https://raw.githubusercontent.com/Jcomper/StudingMJML/main/taskIcon.png" /></td>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><span style="color:#000000; padding-left: 5px;">Look over the different VVS options</span></td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"></td>
+                        <td style="padding:0;font-size:16px;font-family:helvetica; font-weight:normal"><span style="color:#808080;padding-left: 5px;">Due date: 09/12/2021</span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- /Repeatable element -->
+
+              </table>
+              <!-- /Inner table assignments -->
+            </td>
           </tr>
         </mj-table>
       </mj-column>
-  </mj-section>
-
-
-    <mj-section  padding="20px" > 
-    <mj-column padding="0 150px 0 0">
-    <mj-button font-size="16px" color="white" background-color="#74a15f" font-family="helvetica" width="150px" > 
-    Sign in  </mj-button>
-    </mj-column>
-    <mj-column>    
-    <mj-image width="200px" padding="0 0 0 140px" src="https://raw.githubusercontent.com/Mashidzasupergirl/StudingMJML/main/web-forum.JPG"/>
-    </mj-column>
-
     </mj-section>
 
+    <mj-section padding="20px">
+      <mj-column padding="0 150px 0 0">
+        <mj-button href="https://secure.webforum.com" font-size="16px" color="white" background-color="#74a15f" font-family="helvetica" width="150px">
+          Sign in </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image width="200px" padding="0 0 0 140px" src="https://raw.githubusercontent.com/Jcomper/StudingMJML/main/webforumLogo.JPG" />
+      </mj-column>
 
-
+    </mj-section>
   </mj-body>
 </mjml>
